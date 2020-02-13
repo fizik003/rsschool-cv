@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+
+.container{
+    
+    
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    font-family: Lemonada;
+    font-size: 32px;
+    text-transform: uppercase;
+    
+}
+
+.who{
+    padding-top: 20px;
+    background-color: #f4f5f7;
+}
+
+.section{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-heading, {
+    padding-bottom: 20px;
+}
+
+
+.block-text, .block-text a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.block-img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-summary, .my-education, .eng-text{
+    font-size: 24px;
+}
+
+.summary, .example-code, .level-eng{
+    background-color: #f4f5f7;
+}
+
+.text-skills{
+    display: flex;
+    margin-left: 40px;
+    font-size: 24px;
+
+}
+
+.code-text{
+    font-size: 24px;
+}
+
+.my-education{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.my-education > li{
+    padding-top: 15px;
+}
+
+
+
+

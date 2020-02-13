@@ -3,8 +3,9 @@
     padding: 0;
     }
 
+
 .container{
-    border: 1px solid red;
+    
     
     width: 1020px;
     margin-left: auto;
@@ -42,7 +43,7 @@
     justify-content: space-between;
 }
 
-.section-heading{
+.section-heading, {
     padding-bottom: 20px;
 }
 
@@ -59,4 +60,35 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.text-summary, .my-education, .eng-text{
+    font-size: 24px;
+}
+
+.summary, .example-code, .level-eng{
+    background-color: #f4f5f7;
+}
+
+.text-skills{
+    display: flex;
+    margin-left: 40px;
+    font-size: 24px;
+
+}
+
+.code-text{
+    font-size: 24px;
+}
+
+.my-education{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.my-education > li{
+    padding-top: 15px;
+}
+
+
+
 
